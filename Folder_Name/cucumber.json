@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 266542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookz_stepdefination.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test the scenario1",
+        "description": "",
+        "id": "to-test-the-hooks-functionlity;test-the-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 836669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookz_stepdefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123195763,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the pricing page",
+            "match": {
+              "location": "Hookz_stepdefination.pricingpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208715,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user add the pricing form",
+            "match": {
+              "location": "Hookz_stepdefination.addpricingpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185827,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user save the pricing",
+            "match": {
+              "location": "Hookz_stepdefination.savepricing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 273769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookz_stepdefination.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Test the scenario2",
+        "description": "",
+        "id": "to-test-the-hooks-functionlity;test-the-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 35539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookz_stepdefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 215342,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the Tariff page",
+            "match": {
+              "location": "Hookz_stepdefination.pricingpage1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253892,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user add the Tariff form",
+            "match": {
+              "location": "Hookz_stepdefination.pricingpage2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90052,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user save the Tariff",
+            "match": {
+              "location": "Hookz_stepdefination.pricingpage3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the hooks functionlity",
+    "description": "",
+    "id": "to-test-the-hooks-functionlity",
+    "keyword": "Feature",
+    "uri": "E:/Selenium/cucumberp/src/main/java/Features/Hooks.feature"
+  }
+]
